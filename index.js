@@ -1,16 +1,21 @@
 const express = require('express')
+const app = express()
 const bodyParser = require('body-parser')
 const cors = require('cors')
-const app = express()
+const passport = require('./config/passport')()
 
-
+app.use(passport.initialize())
 app.use(cors())
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+const lessonController = require('./controllers/lesson.js')
+const userController = require('./controllers/user.js')
 
 
-// app.use('/', classController)
+app.use('/', lessonController)
+app.use('/users', userController)
+
 
 
 

@@ -2,53 +2,53 @@
   {
     "date": "Dec 12",
     "title": "HTML & CSS",
-    "objective": "Review the roles of HTML and CSS in web pages",
+    "objective": "Review the roles of HTML and CSS in web pages.",
     "instructor": "Jimmy"
   },
 
   {
     "date": "Dec 21",
     "title": "The DOM and Events",
-    "objective": "Define Event Listeners and Event Handlers",
+    "objective": "Define Event Listeners and Event Handlers.",
     "instructor": "Pearl"
   },
 
   {
-    "date": "Dec 12",
-    "title": "HTML & CSS",
-    "objective": "Review the roles of HTML and CSS in web pages",
-    "instructor": "Jimmy"
+    "date": "Jan 24",
+    "title": "express-mongoose-mlab-deploy",
+    "objective": "Deployment with MLABS and Heroku",
+    "instructor": "Jimmy and Erin"
   },
 
   {
     "date": "Jan 2",
     "title": "Boostrap",
-    "objective": "Learn how to use and build with Bootstrap framework",
+    "objective": "Learn how to use and build with Bootstrap framework.",
     "instructor": "Jimmy"
   },
 
   {
     "date": "Jan 18",
     "title": "Lab: MEHN",
-    "objective": "Pair programming, MEHN Lab",
+    "objective": "Pair programming, MEHN Lab.",
     "instructor": "Erin"
   },
   {
     "date": "Jan 22",
     "title": "Express Authentication",
-    "objective": "Local Authentication with Express and Passport",
+    "objective": "Local Authentication with Express and Passport.",
     "instructor": "Jimmy"
   },
   {
     "date": "Feb 4",
     "title": "Intro to React & Components",
-    "objective": "Explain what is ReactJS and how does it fit into the modern model of web development",
+    "objective": "Explain what is ReactJS and how does components fit into the modern model of web development.",
     "instructor": "Erin"
   },
   {
-    "date": "Feb 19",
-    "title": "Project 3",
-    "objective": "First day of Project 3",
+    "date": "Feb 28",
+    "title": "Intro to SQL.",
+    "objective": "Learning about new database format, SQL. Using PostgreSQL and more.",
     "instructor": "Erin"
   }
 ]
