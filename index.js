@@ -13,7 +13,7 @@ const lessonController = require('./controllers/lesson.js')
 const userController = require('./controllers/user.js')
 
 
-app.use('/*', lessonController)
+app.use('/lesson', lessonController)
 app.use('/users', userController)
 
 
