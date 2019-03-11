@@ -13,6 +13,6 @@ const Lesson = new Schema({
 });
 
 // builds a model from the schema, and attaches it to our mongoose instance.
-// a model is used to query and change data in the database
+// a model is used to query and change data in the database....
 
 module.exports = mongoose.model("Lesson", Lesson);

@@ -13,14 +13,17 @@ const lessonController = require('./controllers/lesson.js')
 const userController = require('./controllers/user.js')
 
 
-app.use('/', lessonController)
+app.use('/*', lessonController)
 app.use('/users', userController)
 
 
+app.set('port', process.env.PORT || 3001)
+
+  app.listen(app.get('port'), () => {
+    console.log(`✅ PORT: ${app.get('port')} 🌟`)
+  })
 
 
-
-
-app.listen(3000, () => {
-  console.log("Server running on Port 3000");
-});
+// app.listen(3000, () => {
+//   console.log("Server running on Port 3000");
+// });
