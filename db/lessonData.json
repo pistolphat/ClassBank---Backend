@@ -1,0 +1,54 @@
+[
+  {
+    "date": "Dec 12",
+    "title": "HTML & CSS",
+    "objective": "Review the roles of HTML and CSS in web pages",
+    "instructor": "Jimmy"
+  },
+
+  {
+    "date": "Dec 21",
+    "title": "The DOM and Events",
+    "objective": "Define Event Listeners and Event Handlers",
+    "instructor": "Pearl"
+  },
+
+  {
+    "date": "Dec 12",
+    "title": "HTML & CSS",
+    "objective": "Review the roles of HTML and CSS in web pages",
+    "instructor": "Jimmy"
+  },
+
+  {
+    "date": "Jan 2",
+    "title": "Boostrap",
+    "objective": "Learn how to use and build with Bootstrap framework",
+    "instructor": "Jimmy"
+  },
+
+  {
+    "date": "Jan 18",
+    "title": "Lab: MEHN",
+    "objective": "Pair programming, MEHN Lab",
+    "instructor": "Erin"
+  },
+  {
+    "date": "Jan 22",
+    "title": "Express Authentication",
+    "objective": "Local Authentication with Express and Passport",
+    "instructor": "Jimmy"
+  },
+  {
+    "date": "Feb 4",
+    "title": "Intro to React & Components",
+    "objective": "Explain what is ReactJS and how does it fit into the modern model of web development",
+    "instructor": "Erin"
+  },
+  {
+    "date": "Feb 19",
+    "title": "Project 3",
+    "objective": "First day of Project 3",
+    "instructor": "Erin"
+  }
+]

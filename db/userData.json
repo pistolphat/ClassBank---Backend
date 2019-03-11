@@ -1,0 +1,17 @@
+[
+  {
+    "email": "mom@yahoo.com",
+    "password": "mom123"
+  },
+  {
+    "email": "dad@google.com",
+    "password": "dad123"
+  },
+  {
+    "email": "sister@microsoft.com",
+    "password": "sister123"
+  },{
+    "email": "brother@oracle.com",
+    "password": "brother123"
+  }
+]
