@@ -1,54 +1,62 @@
 [
   {
-    "date": "Dec 12",
-    "title": "HTML & CSS",
-    "objective": "Review the roles of HTML and CSS in web pages.",
-    "instructor": "Jimmy"
+    "date": "Dec 21",
+    "title": "JS and the DOM",
+    "objective": "What is the DOM? Explore DOM manipulation.",
+    "instructor": "Jimmy",
+    "url": "https://git.generalassemb.ly/dc-wdi-fundamentals/js-dom"
   },
 
   {
-    "date": "Dec 21",
-    "title": "The DOM and Events",
-    "objective": "Define Event Listeners and Event Handlers.",
-    "instructor": "Pearl"
+    "date": "Jan 22",
+    "title": "Express Authentication",
+    "objective": "Local Authentication with Express and Passport.",
+    "instructor": "Jimmy",
+    "url": "https://git.generalassemb.ly/dc-wdi-node-express/express-passport"
   },
 
   {
     "date": "Jan 24",
     "title": "express-mongoose-mlab-deploy",
-    "objective": "Deployment with MLABS and Heroku",
-    "instructor": "Jimmy and Erin"
+    "objective": "Deployment with MLABS and Heroku.",
+    "instructor": "Jimmy and Erin",
+    "url": "https://git.generalassemb.ly/dc-wdi-node-express/express-mongoose-mlab-deploy"
   },
 
   {
     "date": "Jan 2",
-    "title": "Boostrap",
+    "title": "Parcel and Boostrap",
     "objective": "Learn how to use and build with Bootstrap framework.",
-    "instructor": "Jimmy"
+    "instructor": "Jimmy",
+    "url": "https://git.generalassemb.ly/dc-wdi-node-express/mehn-lab"
   },
 
   {
     "date": "Jan 18",
     "title": "Lab: MEHN",
-    "objective": "Pair programming, MEHN Lab.",
-    "instructor": "Erin"
+    "objective": "Pair programming utilizing MEHN stack.",
+    "instructor": "Erin",
+    "url": "https://git.generalassemb.ly/dc-wdi-node-express/mehn-lab"
   },
   {
     "date": "Jan 22",
     "title": "Express Authentication",
     "objective": "Local Authentication with Express and Passport.",
-    "instructor": "Jimmy"
+    "instructor": "Jimmy",
+    "url": "https://git.generalassemb.ly/dc-wdi-node-express/express-passport"
   },
   {
     "date": "Feb 4",
     "title": "Intro to React & Components",
     "objective": "Explain what is ReactJS and how does components fit into the modern model of web development.",
-    "instructor": "Erin"
+    "instructor": "Erin",
+    "url": "https://git.generalassemb.ly/dc-wdi-react-redux/react-intro"
   },
   {
     "date": "Feb 28",
     "title": "Intro to SQL.",
     "objective": "Learning about new database format, SQL. Using PostgreSQL and more.",
-    "instructor": "Erin"
+    "instructor": "Erin",
+    "url": "https://git.generalassemb.ly/dc-wdi-python-django/sql-intro"
   }
 ]

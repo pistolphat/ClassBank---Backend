@@ -5,10 +5,11 @@ const mongoose = require("mongoose");
 // heroku config:set MLAB_URL=mongodb://<your_user_login>:<your_user_password>@ds015760.mlab.com:15760/<your_db_name>
 
 if (process.env.NODE_ENV == "production") {
-  mongoose.connect(process.env.MLAB_URL, { useMongoClient: true })
+  mongoose.connect(process.env.MLAB_URL)
 } else {
   mongoose.connect("mongodb://localhost/Lessons", { useNewUrlParser: true });
 }
+// mongoose.connect("mongodb://localhost/Lessons"
 
 //enable Promise functions
 mongoose.Promise = Promise;
