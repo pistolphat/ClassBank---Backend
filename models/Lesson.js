@@ -9,7 +9,8 @@ const Lesson = new Schema({
   date: String,
   title: String,
   objective: String,
-  instructor: String
+  instructor: String,
+  url: String,
 });
 
 // builds a model from the schema, and attaches it to our mongoose instance.

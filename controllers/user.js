@@ -42,7 +42,6 @@ router.post("/signup", (req, res) => {
 });
 
 // ! Setup POST request for LOGIN
-
 router.post("/login", (req, res) => {
   if (req.body.email && req.body.password) {
     User.findOne({ email: req.body.email }).then(user => {

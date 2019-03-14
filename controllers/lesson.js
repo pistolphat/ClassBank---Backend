@@ -17,18 +17,30 @@ router.get("/:id", (req, res) => {
 });
 
 //! Update specific item by ID
-// router.put("/:id", (req, res) => {
-//   Lesson.findOneAndUpdate({ _id: req.params.id }, req.body).then(json => {
-//     res.send(json);
-//   });
-// });
+router.put("/:id", (req, res) => {
+  Lesson.findOneAndUpdate({ _id: req.params.id }, req.body).then(json => {
+    res.send(json);
+  });
+});
+
+//! Create New instance based on model
+router.post("/new", (req, res) => {
+  Lesson.create({
+    date: req.body.date,
+    title: req.body.title,
+    objective: req.body.objective,
+    instructor: req.body.instructor,
+    url: req.body.url,
+  }).then(json => {
+    res.send(json);
+  });
+});
 
 //! Delete
-// router.delete("/:id", (req, res) => {
-//   Lesson.findOneAndDelete({ _id: req.params.id }).then(() => {
-//     res.send("Delete Success")
-//     // res.redirect("/");
-//   })
-// });
+router.delete("/:id", (req, res) => {
+  Lesson.findOneAndDelete({ _id: req.params.id }).then(() => {
+    res.send("Delete Success")
+  })
+});
 
 module.exports = router;
