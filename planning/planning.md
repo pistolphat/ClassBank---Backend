@@ -2,15 +2,16 @@
 
 ## API (Back-end)
 
-This is the back-end repository for a full-stack application called Classbank. Access with the address below:
-
-- https://classbank.herokuapp.com/lesson
+This is the back-end repository for a full-stack application called Classbank. Click [here](https://classbank.herokuapp.com/lesson
+) for access.
 
 ### Front End
 
 You can find the front-end repository [here](https://github.com/pistolphat/Classbank).
 
 Here is the deployed [website](http://classbank.surge.sh).
+
+![](planning/Classbank%20SS.png)
 
 ## Technology Used
 
