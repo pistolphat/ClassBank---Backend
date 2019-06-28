@@ -11,7 +11,7 @@ You can find the front-end repository [here](https://github.com/pistolphat/Class
 
 Here is the deployed [website](http://classbank.surge.sh).
 
-![](planning/Classbank%20SS.png)
+![](planning/ClassbankSS.png)
 
 ## Technology Used
 
@@ -21,7 +21,6 @@ This full stack application utilized M.E.R.N stack.
   - Node.js
   - Express
   - MongoDB / Mongoose
-  - JWT Authentication with Passport
   - CORS (Cross-Origin Resource Sharing)
 
 * Postman - for testing CRUD functionality
