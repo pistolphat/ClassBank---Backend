@@ -29,13 +29,11 @@ This full stack application utilized M.E.R.N stack.
 
 ## User Stories
 
-A User must Signup or Login for access.
+** User will need proper credentials in order to be redirect onto GA's repositories.
 
-A User can view all data within the database linked.
+A User can view all links being pulled from API.
 
 A User can add, update, or delete an entry. (Work in progress)
-
-A User can logout, wiping all current User session, until next sign on.
 
 ## Getting Started
 
@@ -45,4 +43,3 @@ To get started, ```clone``` this repository and ```cd``` into this new directory
 2. Make sure to enable your server in the background:  ```mongod```
 3. To access the data, seed the data using the command:  ```node db/seed.js```
 4. To launch the application using the command:  ```node index.js```
-
